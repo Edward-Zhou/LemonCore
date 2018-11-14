@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Edward</Authors>
+    <PackageId>LemonCore</PackageId>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Edward-Zhou/LemonCore.git</RepositoryUrl>
+    <PackageTags>netstandard;TPL</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LemonCore.IO\LemonCore.IO.csproj" />
+  </ItemGroup>
+
+</Project>
